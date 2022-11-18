@@ -8,6 +8,9 @@
 
 3. Array의 기능 사용해도 된다.
    - 단, 코드 첫줄에  " import java.util.*; " 작성 필요
+   
+4. 문자열 반복 메서드 (문자 반복 출력하기 문제)  
+   - str.repeat(n) -> 문자열n 번 반복
 
 ## 부족한 이론
 - Arrays.stream(strList)
