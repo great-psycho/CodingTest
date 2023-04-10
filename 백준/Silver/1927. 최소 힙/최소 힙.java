@@ -4,6 +4,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int N = Integer.parseInt(br.readLine());
 
@@ -15,9 +16,10 @@ public class Main {
                 heap.add(x);
             } else {
                 Integer ans = heap.poll();
-                System.out.println(ans==null? 0:ans);
+                bw.write((ans==null? 0:ans) + "\n");
             }
         }
         br.close();
+        bw.close();
     }
 }
